@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,11 +20,12 @@
     height: 50px;
     width: 100px;
 }
+
 .logo{
     background-image: url("amazon_logo_image.png");
     background-size: cover;
     height: 50px;
-    width: 100px;
+    width: 150px;
 }
 .border{
     border: 1.5px solid transparent;
@@ -116,7 +122,7 @@ span{
 }
 /* Hero section */
 .hero-section{
-    background-image: url("Hero_image.jpg");
+    background-image: url("Images/Hero_image.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
